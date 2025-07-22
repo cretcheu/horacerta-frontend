@@ -6,6 +6,6 @@ import pt from 'date-fns/locale/pt';
 const locales = { 'pt': pt };
 const localizer = dateFnsLocalizer({ format, parse, startOfWeek, getDay, locales });
 
-export default function CalendarComponent({ events }) {
+export default function CalendarComponent({ events }: { events: any[] }) {
   return <Calendar localizer={localizer} events={events} startAccessor="start" endAccessor="end" style={{ height: 500 }} />;
 }
