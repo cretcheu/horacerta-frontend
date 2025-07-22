@@ -8,6 +8,7 @@ export default function Home() {
       <Image src="/logo.png" alt="Hora Certa" width={200} height={200} />
       <h1 className="text-4xl font-bold mt-4">Bem-vindo ao Hora Certa</h1>
       <p className="text-gray-500 mt-2">Agendamentos inteligentes para o seu negócio.</p>
+      <div className="mt-6 flex gap-2"></div>
       <Link href="/login" legacyBehavior>
         <a className="mt-6 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
           Entrar
